@@ -1,9 +1,9 @@
-import Login from "./feature/authentication/login/index";
+import Register from "./feature/authentication/register/index";
 
 function App() {
   return (
     <div className="App dark:bg-slate-900 min-h-screen">
-      <Login />
+      <Register />
     </div>
   );
 }
